@@ -1,0 +1,32 @@
+{% extends 'index.html' %}
+
+{% block title %}
+{{ super() }} - {{title }}
+{% endblock %}
+
+{% block content %}
+<div class="Layers center">
+    <div class="Layers_small">
+        <div class="layers_in_out">
+            <div class="layers_pict">
+                <img src="/static/img/mg_1.svg"  alt="image">
+            </div>
+            <div class="layers_add">
+                <div class="forma1">
+                    <img src="/static/img/layers_rectangle_add.svg"  alt="image">
+                </div>
+                <p class="layer14_writh">Add to Cart </p>
+            </div>
+        </div>
+        <div class="layers_rectangle">
+            <div class="layer_text">
+                <p class="layer_13">НСВ-12,7 «Утёс» </p>
+                <div class="block_text">
+                    <p class="layer_14">Станковый пулемёт Утёс был принят на вооружение в 1971 году и действует до сих пор.</p>
+                </div>
+                <p class="layer_16">$52.00 </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
